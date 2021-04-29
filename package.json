@@ -1,5 +1,5 @@
 {
-  "name": "myreact",
+  "name": "myPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://isacc-coder.github.io/myreact",
+  "homepage": "https://isacc-coder.github.io/myPortfolio-",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
