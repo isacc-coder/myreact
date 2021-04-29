@@ -1,0 +1,35 @@
+.Home{
+    background:#be8e25;
+    /* background: linear-gradient(90deg, rgba(54,30,70,1) 66%,rgb(140, 26, 209) 100%); */
+
+    display: flex;
+    height: 85vh;
+    padding-top: 80px;
+    position: relative;
+}
+.Home .Container{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    color: white;
+}
+.Home .Container .Hello{
+    font-size: calc(1.75rem + 3vw);
+}
+.Home .Container h1{
+        margin: 0;
+}
+.Home .connected{
+    width: 60%;
+    max-width: 500px;
+    position: absolute;
+    right: 4%;
+    top: 35%;
+}
+.Home .Code{
+    width: 20%;
+    max-width: 150px;
+    position: absolute;
+    bottom: 10px;
+    left: 2%;
+}

@@ -1,0 +1,40 @@
+.About{
+    background: #282c34;
+}
+.About .Container{
+    display: flex;
+    padding-bottom: 5%;
+    
+}
+.About .Container.Text{
+    width: 47%;
+    margin-left: 3%;
+}
+.About .Container.Text h2{
+    font-weight: 900;
+    
+}
+.About .Container.Photo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About .Container .Photo .fog{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10%;
+} 
+
+@media (max-width:500px){
+     .About .Container{
+         flex-direction: column;
+         align-items: center;
+     }
+     .About .Container.Text{
+        width: 80%;
+     }
+     .About .Container.Text{
+        width: 70%;
+     }
+}
